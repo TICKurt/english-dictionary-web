@@ -4,7 +4,7 @@
 
 📚 基于开源英汉词典数据的智能学习平台
 
-[在线演示](https://tickurt.github.io/english-dictionary-web) | [快速开始](#快速开始) | [部署指南](DEPLOY.md)
+[在线演示](https://tickurt.github.io/english-dictionary-web) | [快速开始](#快速开始) | [部署指南](DEPLOY.md) | [Docker 部署指南](docker_deploy.md)
 
 </div>
 
@@ -98,6 +98,8 @@ npm run dev
 ```
 
 访问 http://localhost:5173
+
+> 使用 Docker Compose 快速上线？参阅 [Docker 部署指南](docker_deploy.md)。
 
 ## 📦 构建
 
@@ -366,4 +368,3 @@ const results = await getBatchPhonetics(words)
 ---
 
 ⭐ 如果这个项目对你有帮助，请给它一个 Star！
-
